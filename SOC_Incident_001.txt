@@ -1,0 +1,15 @@
+INCIDENT-001
+Title: Multiple Failed Login Attempts
+
+Severity: Medium
+Status: Open
+Date: 30 September 2026
+Source System: AKASHA
+User: SOC_Test_User
+Event Code: 4625
+Detection: Multiple failed login attempts
+Failure Reason: Unknown user name or bad password
+Evidence: 5 failed login events detected
+Related Event: Successful login (Event Code 4624) at 15:29:03
+Investigation: Reviewed related authentication events in Splunk
+Action: Incident recorded for investigation
